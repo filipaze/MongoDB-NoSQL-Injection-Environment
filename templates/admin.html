@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB Webapp</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <h1 style="margin-bottom: 100px;">Admin Panel</h1>
+        
+        <h2>Public Data</h2>
+        <a href="/public">View Database content</a>
+
+        <h2>Search</h2>
+        <form method="GET" action="/search">
+            <input type="text" name="keyword" placeholder="Enter a keyword">
+            <button type="submit">Search</button>
+        </form>
+
+        {% if search_results %}
+            <h3>Search Results for '{{ keyword }}':</h3>
+            <pre>{{ search_results | tojson }}</pre>
+        {% elif keyword %}
+            <p>No results found for '{{ keyword }}'</p>
+        {% endif %}
+        
+        {% if error %}
+            <div class="error-message">
+                <p>Error: {{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

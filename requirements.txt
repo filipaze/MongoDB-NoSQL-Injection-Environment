@@ -1,0 +1,5 @@
+Flask==1.1.2
+Flask-PyMongo==2.3.0
+Jinja2==3.0.3
+itsdangerous==2.0.1
+Werkzeug==2.0.2
