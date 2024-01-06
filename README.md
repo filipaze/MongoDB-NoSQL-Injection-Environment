@@ -1,6 +1,6 @@
 # MongoDB NoSQL Injection Test Environment
 
-Unsecurely created by filipaze 🔓
+Unsecurely created by Filipe Azevedo 🔓
 
 ## Introduction
 
