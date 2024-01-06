@@ -1,5 +1,7 @@
 # MongoDB NoSQL Injection Test Environment
 
+Unsecurely created by filipaze 🔓
+
 ## Introduction
 
 This project is a testing application for MongoDB, written in Python using Flask. It is specifically designed to demonstrate and test MongoDB implementations for NoSQL injection vulnerabilities. The application features user registration, login, and data retrieval functionalities, providing a practical context for understanding and testing NoSQL database interactions.
