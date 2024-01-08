@@ -1,4 +1,4 @@
-# MongoDB NoSQL Injection Test Environment
+# MongoDB NoSQL Injection Environment
 
 Unsecurely created by Filipe Azevedo 🔓
 
